@@ -1,26 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Trimmer</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Fetch YouTube URL</title>
+    <style>
+        body { width: 200px; font-family: Arial, sans-serif; }
+        #output { margin-top: 10px; }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h2>YouTube Trimmer</h2>
-        <form id="trimForm">
-            <div class="form-group">
-                <label for="startTime">Start Time:</label>
-                <input type="text" id="startTime" name="startTime" placeholder="00:00">
-            </div>
-            <div class="form-group">
-                <label for="endTime">End Time:</label>
-                <input type="text" id="endTime" name="endTime" placeholder="00:00">
-            </div>
-            <button type="submit" id="downloadBtn">Download</button>
-        </form>
-    </div>
+    <h1>Fetch YouTube URL</h1>
+    <button id="fetchUrl">Fetch URL</button>
+    <div id="output"></div>
+
     <script src="popup.js"></script>
 </body>
 </html>

@@ -3,19 +3,16 @@
     "name": "YouTube Trimmer",
     "version": "1.0",
     "description": "Trim and download YouTube videos directly from the browser.",
-    "permissions": ["activeTab", "scripting"],
+    "permissions": ["activeTab", "tabs", "scripting", "storage"],
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "images/icon16.png",
-        "48": "images/icon48.png",
-        "128": "images/icon128.png"
+        "16": "images/icon16.png"
+        
       }
     },
     "icons": {
-      "16": "images/icon16.png",
-      "48": "images/icon48.png",
-      "128": "images/icon128.png"
+      "16": "images/icon16.png"
     },
     "background": {
       "service_worker": "background.js"
